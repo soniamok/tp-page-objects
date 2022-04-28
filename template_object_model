@@ -1,0 +1,32 @@
+HomePage
+closeCookiesPopup
+openAllMenu()
+openBookCategory()
+openAllBooks()
+
+BooksPage
+selectFirstBookNouveautes()
+
+ProductPage
+addToCart()
+
+ConfirmationPage
+openCart()
+
+CartPage
+changeQuantity(int
+quantity)
+getQuantity()
+
+assert 2 == (WebElement)
+quantity.text
+
+HomePage.openAllMenu()
+HomePage.openBookCategory()
+HomePage.openAllBooks()
+BooksPage.selectFirstBookNouveautes()
+ProductPage.addToCart()
+ConfirmationPage.openCart()
+CartPage.changeQuantity(2)
+
+assert 2 == CartPage.getQuantity()
