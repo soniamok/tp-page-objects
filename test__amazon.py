@@ -1,11 +1,9 @@
-from time import sleep
 from selenium import webdriver
 from page_objects.HomePage import HomePage
 from page_objects.BooksPage import BooksPage
 from page_objects.ProductPage import ProductPage
 from page_objects.ConfirmationPage import ConfirmationPage
 from page_objects.CartPage import CartPage
-
 
 def test__amazon1():
     driver = webdriver.Chrome()
