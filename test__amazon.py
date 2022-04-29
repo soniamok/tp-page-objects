@@ -4,21 +4,12 @@ from page_objects.BooksPage import BooksPage
 from page_objects.ProductPage import ProductPage
 from page_objects.ConfirmationPage import ConfirmationPage
 from page_objects.CartPage import CartPage
-<<<<<<< Updated upstream
+
 def test__amazon1():
     driver = webdriver.Chrome()
     driver.get("https://www.amazon.fr/")
     driver.maximize_window()
     driver.quit()
-=======
-
-#
-# def test__amazon1():
-#     driver = webdriver.Chrome()
-#     driver.get("https://www.amazon.fr/")
-#     driver.maximize_window()
-#     driver.quit()
->>>>>>> Stashed changes
 
 
 def test__page__object():
